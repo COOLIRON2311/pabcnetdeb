@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-/opt/pascalabcnet/pabcnetcclear.exe "$@"
