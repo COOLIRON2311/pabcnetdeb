@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/share/pascalabcnet/pabcnetc.exe "$@"
+mono /usr/share/pascalabcnet/pabcnetc.exe "$@"
