@@ -1,0 +1,77 @@
+﻿//PascalABCParser.dll
+%PREFIX%=PASCALABCPARSER_
+
+FOUND{0}=Встречено {0}, а 
+FOUNDEOF=Встречен конец файла, а 
+EXPECTED{0}=Ожидалось {0}
+EXPECTED{1}=ожидалось {1}
+EXPECTEDR{1}=ожидался {1}
+EXPECTEDBEGIN=ожидался раздел описаний или begin
+
+WITHOUT_INIT_AND_SIZE=Пропущен размер динамического массива
+
+OPERATOR_NOT_IMPLEMET_TO_THIS_OPEAND_TYPE=Операция не применима к операндам данного типа
+STATEMENT_EXPECTED=Ожидался оператор
+LEFT_SIDE_ASSIGN_MUST_BE_VARIABLE=Левая часть оператора присваивания должна быть переменной
+PROCEDURE_CANNOT_HAVE_RETURNED_VALUE=Процедура не может иметь возвращаемого значения
+EXPECTED_{0}_BUT_FOUND_{1}=Ожидалось '{0}', а встречено '{1}'
+NONTERMINALTOKEN_{0}_RETURN_NULL=Cинтаксическая конструкция вида '{0}' не поддерживается текущей версией парсера
+SEMICOLON_BEFORE_ELSE=Перед else нельзя ставить точку с запятой
+UNEXPECTED_SYMBOL{0}=Неожиданный символ '{0}'
+UNSUPPORTED_OLD_DIRECTIVES=Директивы компилятора в стиле # более не поддерживаются. Используйте директивы в стиле {$ }
+INCLUDE_COULDNT_OPEN_FILE{0}=Директива компилятора $include: нельзя открыть файл '{0}'
+INCLUDE_EMPTY_FILE=Директива компилятора $include: не указано имя файла 
+RECUR_INCLUDE=Директива компилятора $include: рекурсивное включение файла 
+UNNECESSARY $endif=Лишний $endif
+ENDIF_ABSENT=Незакрытая директива $ifdef или $ifndef - отсутствует $endif
+UNNECESSARY $else=Лишний $else
+TYPE_NAME_EXPECTED=Ожидался тип
+
+
+EOF1=конец файла
+EOF=(конец файла)
+TKIDENTIFIER=идентификатор
+TKINTEGER=число
+OPERATOR=оператор
+TKSEMICOLON=';'
+TKCOLON=':'
+TKCOMMA=','
+TKPOINT='.'
+TKASSIGN=':='
+TKEQUAL='='
+TKDOTDOT='..'
+TKROUNDOPEN='('
+TKROUNDCLOSE=')'
+TKDO=do
+EXPR=выражение
+STMT=оператор
+
+ONE_EOF=Ожидался конец файла
+ONE_TKIDENTIFIER=Ожидался идентификатор
+ONE_OPERATOR=Ожидался оператор
+ONE_STMT=Ожидался оператор
+BAD_TUPLE=Неправильно сформированный кортеж
+EMPTY_STATEMENT_IN_SHORT_PROC_DEFINITION=Ожидался оператор
+
+DUPLICATE_NAMES_IN_ANON_TYPE=Анонимный тип не может содержать поля с одинаковыми именами
+BAD_ANON_TYPE=Неверное определение имени поля анонимного типа
+ONE_TYPE_PARAMETER_MUSTBE_WITHOUT_PARENTHESES=Одинокий типовой параметр не должен заключаться в скобки
+
+USING_UNLOCAL_FOR_VARIABLE=Параметр цикла for в PascalABC.NET должен описываться в заголовке цикла
+USING_UNLOCAL_FOREACH_VARIABLE=Параметр цикла foreach должен описываться в заголовке цикла
+OVERLOAD_IS_NOT_USED=overload не используется в PascalABC.NET
+ONLY_BASE_ASSIGNMENT_FOR_TUPLE=Для кортежа допустимо только обычное присваивание :=
+BAD_FORMAT_STRING=Встречена неправильная форматная строка
+TUPLE_ELEMENTS_COUNT_MUST_BE_LESSEQUAL_7=Количество элементов кортежа не должно быть больше 7 
+TWO_NILS_IN_QUESTION_EXPR=Условное выражение не может содержать константы nil по обеим веткам
+DOT_QUECTION_IN_SHORT_FUN=Выражение с ?. не может фигурировать в коротком определении функции без возвращаемого значения
+BAD_INT2=Слишком маленькое целое
+INVALID_INTERFACE_MEMBER=Интерфейсы не могут содержать поля и реализацию методов
+EXTENDED_INDEXED_PROPERTIES=Индексные свойства не могут быть расширенными
+TWO_STRING_LITERALS_IN_SUCCESSION=Две литеральные строковые константы не могут стоять подряд
+ATTRIBUTE_REDECLARED=Повторное применение атрибута
+STATIC_PROPERTIES_CANNOT_HAVE_ATTRBUTE_{0}=Статические свойства не могут иметь атрибут '{0}'
+RESULT_IDENT_NOT_EXPECTED_IN_THIS_CONTEXT=Имя Result недопустимо в этом контексте
+NESTED_RECORD_DEFINITIONS_ARE_FORBIDDEN=Вложенные описания записей запрещены
+NIL_IN_UNNAMED_OBJECT=Поле анонимного класса не может инициализироваться константой nil
+YIELD_STATEMENT_CANNOT_BE_USED_IN_LAMBDA_BODY=Оператор yield нельзя использовать в теле лямбда-выражения
