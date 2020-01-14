@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-fakeroot dpkg-deb --build pascalabcnet_3.5.1-2277_all/
+chmod 0775 pascalabcnet_*_all/DEBIAN/postinst
+chmod +x pascalabcnet_*_all/usr/bin/*
+fakeroot dpkg-deb --build pascalabcnet_*_all
 

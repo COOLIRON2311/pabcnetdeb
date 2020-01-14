@@ -1,0 +1,76 @@
+//PascalABCParser.dll
+%PREFIX%=PASCALABCPARSER_
+
+FOUND{0}=Found {0} but 
+FOUNDEOF=Found end of file but 
+EXPECTED{0}=Expected {0}
+EXPECTED{1}=expected {1}
+EXPECTEDR{1}=expected {1}
+EXPECTEDBEGIN=declaration section or begin expected
+
+WITHOUT_INIT_AND_SIZE=Size of dynamic array is passed
+
+OPERATOR_NOT_IMPLEMET_TO_THIS_OPEAND_TYPE=Bad operand type
+STATEMENT_EXPECTED=Statement expected
+LEFT_SIDE_ASSIGN_MUST_BE_VARIABLE=Leftside assigment must be variable
+PROCEDURE_CANNOT_HAVE_RETURNED_VALUE=Procedure cannot have returned value
+EXPECTED_{0}_BUT_FOUND_{1}=Expected '{0}' but found '{1}'
+NONTERMINALTOKEN_{0}_RETURN_NULL=Syntax rule '{0}' is not supported by the current version of the compiler
+SEMICOLON_BEFORE_ELSE=Перед else нельзя ставить точку с запятой
+UNEXPECTED_SYMBOL{0}=Unexpected symbol '{0}'
+UNSUPPORTED_OLD_DIRECTIVES=Compiler directives began with # are not supported. Use directives {$ }
+INCLUDE_COULDNT_OPEN_FILE{0}=Compiler directive $include: can't open file '{0}'
+INCLUDE_EMPTY_FILE=Compiler directive $include: file name is absent
+RECUR_INCLUDE=Compiler directive $include: recursive include
+UNNECESSARY $endif=Extra $endif
+ENDIF_ABSENT=Not closed directive $ifdef or $ifndef - $endif is absent
+UNNECESSARY $else=Extra $else
+TYPE_NAME_EXPECTED=Type expected
+
+EOF1=end of file
+EOF=(end of file)
+TKIDENTIFIER=identefier
+TKINTEGER=number
+OPERATOR=operator
+TKSEMICOLON=';'
+TKCOLON=':'
+TKCOMMA=','
+TKPOINT='.'
+TKASSIGN=':='
+TKEQUAL='='
+TKDOTDOT='..'
+TKROUNDOPEN='('
+TKROUNDCLOSE=')'
+TKDO=do
+EXPR=expression
+STMT=statement
+
+ONE_EOF=Expected end of file
+ONE_TKIDENTIFIER=Expected identefier
+ONE_OPERATOR=Expected operator
+ONE_STMT=Expected statement
+BAD_TUPLE=Badly formed Tuple
+EMPTY_STATEMENT_IN_SHORT_PROC_DEFINITION=Statement expected
+
+
+DUPLICATE_NAMES_IN_ANON_TYPE=Duplicate field names in anonymous type
+BAD_ANON_TYPE=Bad field name in anonymous type
+ONE_TYPE_PARAMETER_MUSTBE_WITHOUT_PARENTHESES=The alone typed parameter must be without parentheses
+
+USING_UNLOCAL_FOR_VARIABLE=Cycle counter variable should be declared in for cycle
+USING_UNLOCAL_FOREACH_VARIABLE=Cycle counter variable should be declared in foreach cycle
+OVERLOAD_IS_NOT_USED=overload is not used in PascalABC.NET
+ONLY_BASE_ASSIGNMENT_FOR_TUPLE=Tuple allows only base assignment :=
+BAD_FORMAT_STRING=Interpolated string has invalid format
+TUPLE_ELEMENTS_COUNT_MUST_BE_LESSEQUAL_7=Count of Tuple elements must be <=7
+TWO_NILS_IN_QUESTION_EXPR=The conditional expression cannot contain nil constants on both branches
+DOT_QUECTION_IN_SHORT_FUN=Expression with ?. cannot appear in a short function definition without a return value 
+BAD_INT2=Too small int64
+INVALID_INTERFACE_MEMBER=Interface members cannot have definitions
+EXTENDED_INDEXED_PROPERTIES=Extended indexed properties are not realized
+ATTRIBUTE_REDECLARED=This attribute has been already applied to type
+STATIC_PROPERTIES_CANNOT_HAVE_ATTRBUTE_{0}=Static properties cannot have attribute '{0}'
+RESULT_IDENT_NOT_EXPECTED_IN_THIS_CONTEXT=Result identifier is not allowed in this context
+NESTED_RECORD_DEFINITIONS_ARE_ARE_FORBIDDEN=Nested record definitions are forbidden
+NIL_IN_UNNAMED_OBJECT=Anonymous class field cannot be initialized by nil constant
+YIELD_STATEMENT_CANNOT_BE_USED_IN_LAMBDA_BODY=yield statement cannot be used in lambda body
