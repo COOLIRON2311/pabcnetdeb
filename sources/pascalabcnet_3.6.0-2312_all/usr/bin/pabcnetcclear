@@ -1,0 +1,2 @@
+#!/bin/sh
+mono /usr/share/pascalabcnet/pabcnetcclear.exe "$@"
