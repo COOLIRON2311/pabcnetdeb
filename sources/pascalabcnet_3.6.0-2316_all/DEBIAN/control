@@ -1,0 +1,18 @@
+Package: pascalabcnet
+Version: 3.6.0-2316
+Architecture: all
+Maintainer: Ivan Ignatenko <iignatenko@sfedu.ru>
+Uploaders: Andrey Kondakov <akondakov@sfedu.ru>
+Installed-Size: 21960
+Depends: mono-complete, binfmt-support
+Recommends: geany, xchm
+Section: devel
+Priority: optional
+Homepage: http://pascalabc.net
+Description: PascalABC.NET programming language
+ PascalABC.NET is a Pascal programming language that implements classic
+ Pascal, most Delphi language features, as well as a number of their
+ own extensions. It is implemented on the .NET Framework platform and
+ contains all the modern language features: classes, operator overloading,
+ interfaces, exception handling, generic classes and routines, garbage
+ collection, lambda expressions, parallel programming tools.
