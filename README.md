@@ -1,7 +1,7 @@
 #### PascalABC.NET deb package
 
 ##### Установка
-- Скачать последнюю версию пакета из раздела [releases](https://github.com/COOLIRON2311/pabcnetdeb/releases) и распаковать его. (`gunzip`)
+- Скачать последнюю версию пакета из раздела [Releases](https://github.com/COOLIRON2311/pabcnetdeb/releases).
 - Установить пакет консольной командой `sudo apt install ./pascalabcnet_3.6.3-2457_all.deb `
 - Обратите внимание! Среда разработки Geany и все зависимости пакета устанавливаются автоматически! (Чтобы отказаться от установки Geany, добавьте аргумент: `--no-install-recommends`)
 - При желании согласиться на автоматическую конфигурацию среды разработки Geany.
