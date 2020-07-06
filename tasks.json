@@ -1,0 +1,19 @@
+{
+    // See https://github.com/COOLIRON2311/pabcnetdeb for more info
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "pabcnetc",
+            "type": "process",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "problemMatcher": []
+}
